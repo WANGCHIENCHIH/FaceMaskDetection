@@ -1,0 +1,5 @@
+class = 3
+train = ../Dataset_for_Mask_Wearing/cfg/train.txt
+valid = ../Dataset_for_Mask_Wearing/cfg/test.txt
+names = ../Dataset_for_Mask_Wearing/cfg/class.names
+backup = ../Dataset_for_Mask_Wearing/cfg/weights

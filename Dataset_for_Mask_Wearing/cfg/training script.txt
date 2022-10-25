@@ -1,0 +1,6 @@
+#training script
+# remember edit cfg file,batch=64,subdivisions=16 in gtx 1050
+darknet detector train ../Dataset_for_Mask_Wearing/cfg/face.data ../Dataset_for_Mask_Wearing/cfg/yolov4-tiny-obj.cfg ../Dataset_for_Mask_Wearing/cfg/yolov4-tiny.conv.29 -dont_show
+# test script
+# remember edit cfg file,batch=1,subdivisions=1
+darknet detector test ../Dataset_for_Mask_Wearing/cfg/face.data ../Dataset_for_Mask_Wearing/cfg/yolov4-tiny-obj.cfg ../Dataset_for_Mask_Wearing/cfg/weights/yolov4-tiny-obj_final.weights ../Dataset_for_Mask_Wearing/cfg/DEMO.jpg
